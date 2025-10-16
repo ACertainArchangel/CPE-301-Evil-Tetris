@@ -1,0 +1,61 @@
+//Feel free to modify main if you code better than me
+//You can add parameters you want to calls to your thing or change how your module works -> up to you
+#include <Arduino.h>
+#include <LcdTetris.h>
+#include <MusicPlayer.h>
+#include <WaterGun.h>
+
+#define SAFETY_THRESHOLD 10
+#define MUSIC_SPEED 1.0
+
+struct flags{
+    byte game_over : 1;
+    byte winner : 1;
+    byte finished_shooting : 1; 
+};
+
+void setup() {
+    UBRR0 = 103; //9600 baud rate
+    LcdTetris::setup();
+    MusicPlayer::setup(MUSIC_SPEED);
+    WaterGun::setup();
+}
+
+void loop() {
+
+    //If this doesn't compile we can use `static flags loopflags = {0, 0, 0};` but if not this is more readable
+
+    static flags loopflags{
+        .game_over = 0,
+        .winner = 0,
+        .finished_shooting = 0
+    };
+
+    if (!loopflags.game_over){
+        loopflags.game_over = LcdTetris::update();
+        if(loopflags.game_over){
+            loopflags.winner = LcdTetris::get_score() >= SAFETY_THRESHOLD;
+        }
+    }
+
+    MusicPlayer::update(!loopflags.game_over || loopflags.winner);
+
+    if (loopflags.game_over && !loopflags.winner){
+        loopflags.finished_shooting = WaterGun::shoot();
+    }
+
+    if (loopflags.game_over && loopflags.finished_shooting){
+        //Lock down and wait for reset while displaying thank you message and final score
+        while(1){
+            LcdTetris::thanks_looser();
+            MusicPlayer::update(true);
+        }
+    }
+    else if (loopflags.game_over && loopflags.winner){
+        while(1){
+            LcdTetris::thanks_winner();
+            MusicPlayer::update(false);
+        }
+    }
+
+}

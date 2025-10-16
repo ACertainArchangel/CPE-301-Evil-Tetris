@@ -1,0 +1,16 @@
+# PlatformIO build and config files
+.pio/
+.clangd/
+.clang-tidy
+.clang-format
+
+# VS Code settings
+.vscode/
+
+# OS-specific stuff
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc

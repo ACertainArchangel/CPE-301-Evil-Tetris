@@ -1,0 +1,8 @@
+{
+    "name": "MusicPlayer",
+    "version": "1.0.0",
+    "description": "Non-blocking Tetris theme song player (a Russian song called коробейники)",
+    "authors": [
+        { "name": "Gabriel Jordaan" }
+    ]
+}
