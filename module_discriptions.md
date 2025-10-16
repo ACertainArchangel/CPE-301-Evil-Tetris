@@ -1,10 +1,17 @@
-# Welcome to haardware discriptions!
+# Welcome to hardware discriptions!
 This is where we can list the components and assembly instructions for the circuits needed for our modules.
 
 ## Gabe — Sound Machine
 Components needed:
-* Passive Piezo buzzer xn \<in progress>
+* Passive Piezo buzzer x3 
+* Resistor x3 (very likely 100-200 ohms depending on desired volume and safety level)
+* Capacitor x3 -> Experement but 10 micro farads is likely good
+* Jumper wires to make connections 
+* Possibly more and special wire depending on our casing and water proofing capabilities
+Connect pin 11 to one piezo buzzer through resistor and capacitor to ground
+Connect pin 5  to one piezo buzzer through resistor and capacitor to ground
+Connect pin 6  to one piezo buzzer through resistor and capacitor to ground
 
-##
+## Roman - LCD display Logic (Tetris)
 
-##
+## Someone - Water Gun

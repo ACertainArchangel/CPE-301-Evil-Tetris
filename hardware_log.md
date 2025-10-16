@@ -4,7 +4,7 @@ This is a place for us to put what pins and other hardware we want so we aren't 
 
 |Reverved Component |Name of User    |Purpose                  |
 |-------------------|----------------|-------------------------|    
-|OC1A (pin11)       |Gabe            |PWM signal for music     |
-|Timer1             |Gabe            |PWM signal for music     |
-|                   |                |                         |
-\<in progress>
+|OC1A(pin11)+ Timer1|Gabe            |PWM signal for music     |
+|OC2A(pin5) + Timer2|Gabe            |PWM signal for music     |
+|OC3A(pin6) + Timer3|Gabe            |PWM signal for music     |
+
