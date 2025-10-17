@@ -11,6 +11,7 @@ Components needed:
 Connect pin 11 to one piezo buzzer through resistor and capacitor to ground
 Connect pin 5  to one piezo buzzer through resistor and capacitor to ground
 Connect pin 6  to one piezo buzzer through resistor and capacitor to ground
+(place in the 3d casing TBD but can likely be close to arduino so we don't need long wires. On small breadbord perhaps.)
 
 ## Roman - LCD display Logic (Tetris)
 
