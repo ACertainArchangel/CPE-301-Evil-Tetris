@@ -1,12 +1,13 @@
 #include "LcdTetris.h"
 #include <Arduino.h>
+#include <stdint.h>
 
 namespace LcdTetris{
     void setup() {
         // initialize pins, etc.
     }
 
-    bool update() {
+    bool update(uint16_t stress_level) {
         // non-blocking logic
     }
 

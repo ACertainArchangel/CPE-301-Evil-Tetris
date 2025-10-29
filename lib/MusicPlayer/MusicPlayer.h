@@ -1,6 +1,7 @@
 #pragma once
+#include <stdint.h>
 
 namespace MusicPlayer{
-    void setup(float speed);
-    void update(bool player_dry);
+    void setup();
+    void update(bool player_dry, uint16_t stress_level);
 }

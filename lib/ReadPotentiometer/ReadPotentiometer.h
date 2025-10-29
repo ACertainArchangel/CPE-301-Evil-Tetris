@@ -1,7 +1,7 @@
 #pragma once
 #include <stdint.h>
 
-namespace MusicPlayer{
+namespace ReadPotentiometer{
     void setup();
     uint16_t read();
 }

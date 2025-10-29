@@ -1,7 +1,6 @@
 #include "ReadPotentiometer.h"
 #include <Arduino.h>
 namespace ReadPotentiometer{
-
     void setup(){
         
     }
