@@ -25,16 +25,16 @@ Note that the person in charge aught to utilise help from others.
 ## Phase 2
 | Task Name |Person In Charge |Due Date | Done |
 |---|---|---:|:---:|
-|Create Solanoid Module in Casing |Son    |Dec 1         | [ ] |
+|Create Solanoid Module in Casing      |Son       |Dec 1  | [ ] |
 
 ## Phase 3
 | Task Name |Person In Charge |Due Date | Done |
 |---|---|---:|:---:|
-|Assemble and Waterproof          |Jorge  |Dec 8          | [ ] |
-|Draw Schematic                   |Son    |Dec 8          | [ ] |
-|Make Video                       |Jorge  |Dec 10          | [ ] |
+|Assemble and Waterproof               |Jorge     |Dec 8   | [ ] |
+|Draw Schematic                        |Son       |Dec 8   | [ ] |
+|Make Video                            |Jorge     |Dec 10  | [ ] |
 
 ## Phase 4
 | Task Name |Person In Charge |Due Date | Done |
 |---|---|---:|:---:|
-|Submit                           |All    |Dec 12         | [ ] |
+|Submit                                |All       |Dec 12  | [ ] |
