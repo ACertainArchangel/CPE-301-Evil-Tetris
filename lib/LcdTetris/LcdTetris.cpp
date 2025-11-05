@@ -1,6 +1,5 @@
 #include "LcdTetris.h"
 #include <Arduino.h>
-#include <stdint.h>
 
 namespace LcdTetris{
     void setup() {
