@@ -21,6 +21,7 @@ Note that the person in charge aught to utilise help from others.
 |3D print casing                       |Gabe      |Nov 24 | [ ] |
 |Create Music Module                   |Gabe      |Nov 24 | [ ] |
 |Create Tetris Module                  |Roman     |Nov 24 | [ ] |
+|Find 12V 3A source                    |Son       |Nov 24 | [ ] |
 
 ## Phase 2
 | Task Name |Person In Charge |Due Date | Done |
