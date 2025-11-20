@@ -36,6 +36,7 @@ void checkTetris(int* board[]) {
       // TETRIS
     }
   }
+  /// TODO: loop to clear lines?
 }
 
 void placePiece(int* board[], int* piece) {
